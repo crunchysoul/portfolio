@@ -96,7 +96,7 @@ h2 {
   outline: none;
   box-sizing: border-box;
   font: 1em 'Voltaire', Arial, Helvetica, sans-serif;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); */
   font-color: #002b36;
   opacity: 0.9;
   border: 2px solid #d33682;
