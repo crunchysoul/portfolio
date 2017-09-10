@@ -150,6 +150,7 @@ h2 {
 
   p {
     padding: 20px;
+    padding-bottom: 4px;
   }
 
   h1, h2 {
@@ -210,12 +211,18 @@ h2 {
     position: absolute;     
   }
 
-  header{       
+  header {       
     top: 0;
   }
 
-  footer{      
+  footer {      
     bottom: 0;
+  }
+
+  form {
+    text-align : center;
+    margin: 0 auto;
+    padding: 20px;
   }
 
   .main-container {
@@ -261,6 +268,63 @@ h2 {
     background: #3AF3DD;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
+
+  /* -----------------------------------*/
+  /* -------->>> FORM Desktop <<<-------*/
+  /* -----------------------------------*/
+  .d3 input[type="text"],
+  .d3 input[type="email"],
+  .d3 textarea {
+    -webkit-appearance: none;
+    padding: 1vh;
+    margin-bottom: 0.5vh;
+    width: 100%;
+    align-terms: center;
+    outline: none;
+    box-sizing: border-box;
+    font: 1em 'Voltaire', Arial, Helvetica, sans-serif;
+    /*   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3); */
+    font-color: #002b36;
+    opacity: 0.9;
+    border: 2px solid #d33682;
+    border: none;
+    background: #FDF6E3;
+    transition: all 0.30s ease-in-out;
+  }
+
+  .d3 textarea {
+    min-height: 12vh;
+  }
+
+  .d3 input[type="text"]:focus,
+  .d3 input[type="email"]:focus,
+  .d3 textarea:focus {
+    box-shadow: 0 0 5px #43D1AF;
+    border: 2px solid #43D1AF;
+    border: none;
+  }
+
+  .d3 input[type="submit"],
+  .d3 input[type="button"] {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5vh;
+    margin-bottom: 0.5vh;
+    border: none;
+    font: 36px 'Wire One', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    color: #FDF6E3;
+    background: #A6FD1F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 130px #7A56CB;
+  }
+
+  .d3 input[type="submit"]:hover,
+  .d3 input[type="button"]:hover {
+    background: #F12B18;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 120px #1FA0C9;
+  }
+
 
   /* -----------------------------------*/
   /* -------->>> LABEL-BUTTON <<<-------*/
