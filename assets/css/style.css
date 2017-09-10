@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Voltaire|Wire+One');
+
 /* -----------------------------------*/
 /* ---------->>> GLOBAL <<<-----------*/
 /* -----------------------------------*/
@@ -46,7 +48,7 @@ h2 {
   padding-bottom: 20px;
   height: auto;
   box-sizing: border-box;
-  border: 2px solid #fdf6e3;
+/*   border: 2px solid #fdf6e3; */
 }
 
 .m-background {
@@ -58,25 +60,25 @@ h2 {
 }
 
 .m1 {
-  width: 96vw;
+  width: 97vw;
   background: #17BCF1;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 200px #3E3F57;
 }
 
 .m2 {
-  width: 92vw;
+  width: 94vw;
   background: #F33A76;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
 }
 
 .m3 {
-  width: 88vw;
+  width: 91vw;
   background: #975DAD;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
 }
 
 .m4 {
-  width: 84vw;
+  width: 88vw;
   padding-left: 2vw;
   padding-right: 2vw;
   background: #59C9A5;
@@ -94,9 +96,11 @@ h2 {
   outline: none;
   box-sizing: border-box;
   font: 1em 'Voltaire', Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   font-color: #002b36;
   opacity: 0.9;
   border: 2px solid #d33682;
+  border: none;
   background: #FDF6E3;
   transition: all 0.30s ease-in-out;
 }
@@ -110,6 +114,7 @@ h2 {
 .m4 textarea:focus {
   box-shadow: 0 0 5px #43D1AF;
   border: 2px solid #43D1AF;
+  border: none;
 }
 
 .m4 input[type="submit"],
@@ -117,9 +122,10 @@ h2 {
   -webkit-appearance: none;
   box-sizing: border-box;
   width: 100%;
-  padding: 0.8em;
+  padding: 0.3em;
   border: none;
-  font: 20px 'Voltaire', Arial, Helvetica, sans-serif;
+  font: 36px 'Wire One', Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   color: #FDF6E3;
   background: #A6FD1F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 130px #7A56CB;
