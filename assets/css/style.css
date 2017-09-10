@@ -87,6 +87,7 @@ h2 {
 .m4 input[type="text"],
 .m4 input[type="email"],
 .m4 textarea {
+  -webkit-appearance: none;
   padding: 1vh;
   margin-bottom: 1vh;
   width: 100%;
@@ -113,6 +114,7 @@ h2 {
 
 .m4 input[type="submit"],
 .m4 input[type="button"] {
+  -webkit-appearance: none;
   box-sizing: border-box;
   width: 100%;
   padding: 0.8em;
