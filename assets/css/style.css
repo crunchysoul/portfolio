@@ -7,8 +7,8 @@ body {
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 
   display: flex;
-	align-items: center;
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
   background: #fdf6e3;
   box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.25), inset 30px 30px 200px #000000;
 }
@@ -110,6 +110,9 @@ h2 {
 .m4 input[type="submit"],
 .m4 input[type="button"] {
   box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   width: 100%;
   padding: 0.8em;
   border: none;
@@ -133,25 +136,25 @@ h2 {
 /* desktop viewport */
 @media all and (min-width: 768px) {
   .mobile-only {
-		display: none;
-	}
-  
+    display: none;
+  }
+
   .desktop-only {
     display: block;
   }
 
   p {
-/*     display: none; */
+    /*     display: none; */
     padding: 20px;
     visibility: hidden;
   }
-  
+
   article {
     visibility: hidden;
   }
-  
+
   h1, h2 {
-/*     padding: 0px; */
+    /*     padding: 0px; */
     color: #fdf6e3;
     text-align: center;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
@@ -163,9 +166,9 @@ h2 {
     font-size: 36px;
     text-align: left;
   }
-/* -----------------------------------*/
-/* ---------->>> DESKTOP <<<----------*/
-/* -----------------------------------*/
+  /* -----------------------------------*/
+  /* ---------->>> DESKTOP <<<----------*/
+  /* -----------------------------------*/
   .desktop-box {
     margin: 0 auto;
     padding: 0;
@@ -178,7 +181,7 @@ h2 {
     transition: all 150ms ease-in-out;
     overflow: hidden;
   }
-  
+
   .desktop-box-background {
     margin: 0 auto;
     padding: 0;
@@ -194,7 +197,7 @@ h2 {
     cursor: auto;
     transition: none;
   }
-  
+
   .d1 {
     max-width:1024px;
     width: 90vw;
@@ -202,7 +205,7 @@ h2 {
     background: #56CCF2;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #2F80ED;
   }
-  
+
   .d2 {
     max-width: 824px;
     width: 80vw;
@@ -210,7 +213,7 @@ h2 {
     background: #8559AD;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25), inset 30px 30px 200px #3E3F57;
   }
-  
+
   .d3 {
     max-width: 624px;
     width: 70vw;
@@ -218,7 +221,7 @@ h2 {
     background: #F33A76;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
-  
+
   .d4 {
     max-width: 424px;
     width: 60vw;
@@ -226,20 +229,20 @@ h2 {
     background: #3AF3DD;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
-  
-/* -----------------------------------*/
-/* ------------>>> TITLE <<<----------*/
-/* -----------------------------------*/
+
+  /* -----------------------------------*/
+  /* ------------>>> TITLE <<<----------*/
+  /* -----------------------------------*/
   .title {
     height: 1rm;
     line-height:1rm;
     padding-bottom: 1rm;
-/*     border-bottom: 2px solid #fdf6e3; */
+    /*     border-bottom: 2px solid #fdf6e3; */
   }
-  
-/* -----------------------------------*/
-/* ---------->>> CONTENT <<<----------*/
-/* -----------------------------------*/
+
+  /* -----------------------------------*/
+  /* ---------->>> CONTENT <<<----------*/
+  /* -----------------------------------*/
   #testing {
     position: relative;
     line-height:1rm;
@@ -247,13 +250,13 @@ h2 {
     display: none;
     overflow: auto;
   }
-  
+
   #ds-test {
     display: none;
   }
-/* -----------------------------------*/
-/* -------->>> LABEL-BUTTON <<<-------*/
-/* -----------------------------------*/
+  /* -----------------------------------*/
+  /* -------->>> LABEL-BUTTON <<<-------*/
+  /* -----------------------------------*/
   .box-label {
     position: absolute;
     width: 100%;
@@ -262,61 +265,61 @@ h2 {
     cursor: pointer;
     user-select: none;
   }
-  
-/* -----------------------------------*/
-/* ----------->>> BUTTON <<<----------*/
-/* -----------------------------------*/
+
+  /* -----------------------------------*/
+  /* ----------->>> BUTTON <<<----------*/
+  /* -----------------------------------*/
   .box-button {
     display: none;
   }
-  
+
   #button-d1:checked ~ .d1 p {
     visibility: visible;
   }
-  
+
   #button-d1:checked ~ .d2 {
     display: none;
   }
-  
+
   #button-d1:checked ~ .d3 {
     display: none;
   }
-  
+
   #button-d1:checked ~ .d4 {
     display: none;
   }
-  
-/* -------->>> button-d2 <<<----------*/
+
+  /* -------->>> button-d2 <<<----------*/
   #button-d2:checked ~ .d2 p {
     display: block;
   }
-  
+
   #button-d2:checked ~ .d3 {
     display: none;
   }
-  
+
   #button-d2:checked ~ .d4 {
     display: none;
   }
-  
-/* -------->>> button-d3 <<<----------*/
+
+  /* -------->>> button-d3 <<<----------*/
   #button-d3:checked ~ .d3 p {
     display: block;
   }
-  
+
   #button-d3:checked ~ .d4 {
     display: none;
   }
-  
-/* -------->>> button-d4 <<<----------*/
+
+  /* -------->>> button-d4 <<<----------*/
   #button-d4:checked ~ .d4 p {
     display: block;
     overflow: auto;
   }
-  
-/* -----------------------------------*/
-/* ------------>>> HOVER <<<----------*/
-/* -----------------------------------*/
+
+  /* -----------------------------------*/
+  /* ------------>>> HOVER <<<----------*/
+  /* -----------------------------------*/
   .d1:hover {
     max-width:1044px;
     width: 91vw;
@@ -324,11 +327,11 @@ h2 {
     background: #56CCF2;
     box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #2F80ED;
   }
-  
+
   .d1:hover + .d2 {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 200px #3E3F57;
   }
-  
+
   .d2:hover {
     max-width:844px;
     width: 81vw;
@@ -336,11 +339,11 @@ h2 {
     background: #8559AD;
     box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.25), inset 30px 30px 200px #3E3F57;
   }
-  
+
   .d2:hover + .d3 {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
-  
+
   .d3:hover {
     max-width:644px;
     width: 71vw;
@@ -348,7 +351,7 @@ h2 {
     background: #F33A76;
     box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
-  
+
   .d3:hover + .d4 {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
@@ -360,7 +363,7 @@ h2 {
     background: #3AF3DD;
     box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #828282;
   }
-  
+
   .d4:hover + .d5{
     width: 170px;
     height: 170px;
