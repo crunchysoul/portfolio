@@ -101,6 +101,10 @@ h2 {
   transition: all 0.30s ease-in-out;
 }
 
+.m4 textarea {
+  min-height: 40vh;
+}
+
 .m4 input[type="text"]:focus,
 .m4 input[type="email"]:focus,
 .m4 textarea:focus {
