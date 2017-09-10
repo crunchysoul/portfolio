@@ -49,11 +49,31 @@ h2 {
 }
 
 .m-background {
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
   width: 100vw;
   background-color: #25BCED;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 30px 30px 100px #2F80ED;
   border: none;
+}
+
+#solver {
+  color: #000;
+}
+
+.mobile-socials {
+  display: flex;
+  margin: 0 auto;
+  item-align: center;
+  color: #fdf6e3;
+}
+
+a {
+  margin: 0 auto;
+}
+
+.fa {
+  margin: 0 auto;
+  color: #fdf6e3;
 }
 
 .m1 {
