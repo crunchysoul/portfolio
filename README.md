@@ -48,31 +48,27 @@ Obeviously it's too slim, not really useful for many situations, but fit into th
 
 No special arrangement need to apply the design to computer, Squares are very portable to all different shapes and sizes, beauty of fundamental geometric shapes, they exist everywhere and suitable for all occasions, only limitation is imagination.
 
-# Technical challanges
-- I was struglling to place all the frames in a place I want. However I start to have understanding of what `relative` or `fixed`, `absolute` does, although I still tend to choose one hoping for the best.
-- Text rotation to vertical. Some texts flied to nowhere when all I did was just rotating it.
-- z-index. Apparently it all has to belong `position: relative`?
-- Keeping it DRY (don't repeat yourself) ― I noticed I repeat some elements too many times in my CSS, such as `font-family` and `font-weight`. It still works but I didn't like it so I spent extra time cleaning up several lines.
-- Implementing animation. I took Ruegen's feedback and decided to implement animation. What I knew I wanted to do is that it only swings or rotates once, when you scroll down and the object is visible in the screen (apparently it's called viewpoint).
-I researched a bit and there was this handy plugin called [CSS3 Animate It](http://jackonthe.net/css3animateit/examples/), which helped me a lot saving my time.
-I also learnt how to implement jQuery in your html.
-- Not quite sure how to use svg. Svg's I created with Vectr get blurry as I zoom in..?????
+Even though now, mobile devices are the most significant digital interfaces, but there are many characters larger viewport provided can not be replaced by a palm size screen, I truely believe mobile is the first class citizen now, desktop viewport can make some real art pieces. No Junks.
 
-# Lessons learnt:
-- Preparation is (almost) everything.
-I was recalling myself Abraham Lincoln's quote, which goes as follows:
-> **_"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."_** 
+This is the initial design for large viewport:
 
-This was so true, I spent majority of hours desiging in Figma and the actual coding part was pretty smooth.
-- **Edit your file in local unless you know what you are doing!!!** <br>
-This was my official effed up moment.  
-I once wiped out my 5-hour work of `readme.md` because there was a conflict between local file and remote. And I force overwrote my latest one saved in the remote with the old one saved in the local by doing `git push -f`. <br>
-This happened because I kept editing my `readme.md` in remote repository directly.  
-I did create `.gitignore` in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.  
-- Try getting a big picture ― there were a few instances where I had to do repeat my work because the images I prepared weren't big enough, so when it's zoomed in it became looking a bit ugly.
-- Name your classes wisely ― I realised it's quite easy to get lost in your own coding if the classes are poorly named. I named a bunch of links at the top page "link" which later I ended up investigating what that means.
-I changed it to "menu" which is much more self-explanatory.
+![Desktop_HD](./md-img/Desktop_HD.png "Desktop_HD.png")
 
+As you can see, the colors are majorly unchanged from phone view, but with one extra section on top, I wanted to ultilise the extra view real estate, but eventually did not apply it to my current portfolio design, simply due to I don't have enough subsection for portfolio.
 
-# Ok here is the website.
-### https://tomomioki.netlify.com/
+about the center dark rectangle shape, it definitely was a interesting choice, I believe the inspiration was subconciously from one of the best motion pictures "2001: A Space Odyssey", the infamous "Black Stone":
+
+![black_stone01](./md-img/blackstone01.jpg "Famous Black Stone_01")
+![black_stone02](./md-img/blackstone02.jpg "Famous Black Stone_02")
+
+![2001](./md-img/2001.jpg "2001")
+![2001_1](./md-img/2001_1.jpg "2001_1")
+
+For now, the structure and form factors of this portfolio design was about to settle, but, HERE COMES THE QUESTIONS: HOW TO RELATE THIS TO A PORTFOLIO WEBSITE? Which costed me lots of thinking to make it happen, still not the most satisfying result to myself.
+
+Here comes the hidden Figma link:
+https://www.figma.com/file/IKOhpcs0WpI8o0XFfMYUAoz2/Untitled
+
+# Design Stage Four: Design and Function meet each others, THE CHAOS.
+
+![black_stone01](./md-img/blackstone01.jpg "Famous Black Stone_01")
