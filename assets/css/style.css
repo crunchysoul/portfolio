@@ -295,7 +295,15 @@ a {
   .m-c-d2 {
     padding: 40px;
   }
-  
+
+  .m-c-d3 {
+    padding: 30px;
+  }  
+
+   .m-c-d4 {
+    padding: 20px;
+  } 
+
   .desktop-socials {
   display: flex;
   width: 80%;
