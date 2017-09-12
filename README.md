@@ -68,7 +68,7 @@ For now, the structure and form factors of this portfolio design was about to se
 
 Here comes the hidden Figma link:
 https://www.figma.com/file/IKOhpcs0WpI8o0XFfMYUAoz2/Untitled
-
+https://www.figma.com/file/Whu6nrnZfMAapAP4hyGPT7mH/Untitled
 # Design Stage Four: Design and Function meet each others, THE CHAOS.
 
 ![black_stone01](./md-img/blackstone01.jpg "Famous Black Stone_01")

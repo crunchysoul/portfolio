@@ -4,15 +4,16 @@
   <!-- TODO: 1. complete metadata -->
   <!--       2. favicon -->
   <!--       3. opengraph -->
-  <!--       4. scroll -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Chen Zhao Portfolio</title>
+    <!-- css reset, from Eric Meyer, v2.0 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Voltaire|Wire+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" title="chen zhao portfolio" charset="utf-8">
-    <script src="https://use.fontawesome.com/81223d852b.js"></script>
+    <!-- <script src="https://use.fontawesome.com/81223d852b.js"></script> -->
   </head><!-- head -->
 
   <!-- body: visible html -->
@@ -22,138 +23,162 @@
     <div class="desktop-only">
       <div class="desktop-box-background">
         <h1>CHEN ZHAO</h1>
-      </div>
+      </div><!-- desktop&#45;box&#45;background -->
 
       <input type="checkbox" class="box-button" id="button-d1" />
       <div class="desktop-box d1">
-        <label for="button-d1" onclick class="box-label" id="label-b-d1">
-          <article>
-            <header class="d-title-bar">
-              <h2>- WHAT { WORKS } -</h2>
-            </header>
-            <div class="main-container m-c-d1">
-              <p style="text-align:center;"><img src="assets/img/design.jpeg" style="width:100%;height:auto;"></p>
-              <p>desktop-box-1</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
-              </p>
-              <p style="text-align:center;"><img src="assets/img/google.jpeg" style="width:100%;height:auto;"></p>
-              <p>desktop-box-1</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
-              </p>
-              <p style="text-align:center;"><img src="assets/img/embbed.jpeg" style="width:100%;height:auto;"></p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
-            </div>
-            <footer class="d-footer-bar">
-              <h2 id="close-d1"> - BACK -</h2>
-            </footer>
-          </article>
+        <label for="button-d1" onclick>
           <div id="d1-nav-title">
             <h2>- WHAT { WORKS } -</h2>
           </div>
+
+          <footer>
+            <h2> - BACK -</h2>
+          </footer>
         </label>
-      </div>
+
+        <article>
+          <header>
+            <h2>- WHAT { WORKS } -</h2>
+          </header>
+
+          <div class="main-container">
+            <!-- <h2>Scroll for more</h2> -->
+            <p>desktop-box-1, (scroll down for more..)</p>
+            <p style="text-align:center;"><img src="assets/img/design.jpeg" style="width:100%;height:auto;"></p>
+            <p style="text-align:center;"><img src="assets/img/google.jpeg" style="width:100%;height:auto;"></p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <p>desktop-box-1</p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <p style="text-align:center;"><img src="assets/img/embbed.jpeg" style="width:100%;height:auto;"></p>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+          </div><!-- main&#45;container -->
+        </article>
+      </div><!-- d1 -->
 
       <input type="checkbox" class="box-button" id="button-d2" />
       <div class="desktop-box d2">
-        <label for="button-d2" onclick class="box-label" id="label-b-d2">
-          <article>
-            <header class="d-title-bar">
-              <h2>- WHY { SKILLS } -</h2>
-            </header>
-
-            <div class="main-container m-c-d2">
-              <p></p>
-              <p>
-              Languages: English, Chinese
-              </p>
-              <p>
-              Programming: Assembly language(ARM), CSS, Git, HTML, Haskell, Java, JavaScript, LaTex, Python, R, Ruby
-              </p>
-              <p>
-              Learning: ARKit, Elixir, ReactJS, Ruby on Rails, Swift
-              </p>
-              <p>
-              Education: Australian National University, Bachelor of Science, major in Mathematics and Computer Science, second year
-              </p>
-              <p>
-              Currently: Coder Academy web dev boot camp 6 months, March 2018
-              </p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <div class="desktop-socials">
-                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
-                <a class="btn btn-default" href="https://github.com/crunchysoul"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-                <a class="btn btn-default" href="https://codepen.io/funkycrunchy/"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
-                <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
-              </div><!-- mobile-socials -->
-              <p></p>
-              <p></p>
-            </div>
-
-            <footer class="d-footer-bar">
-              <h2 id="close-d2">- BACK -</h2>
-            </footer>
-          </article>
+        <label for="button-d2" onclick>
           <div id="d2-nav-title">
             <h2>- WHY { SKILLS } -</h2>
           </div>
+
+          <footer>
+            <h2>- BACK -</h2>
+          </footer>
         </label>
-      </div>
+
+        <article>
+          <header>
+            <h2>- WHY { SKILLS } -</h2>
+          </header>
+
+          <div class="main-container">
+
+            <p></p>
+            
+            <p>
+            Languages: English, Chinese
+            </p>
+
+            <p>
+            Programming: Assembly language(ARM), CSS, Git, HTML, Haskell, Java, JavaScript, LaTex, Python, R, Ruby
+            </p>
+
+            <p>
+            Learning: ARKit, Elixir, ReactJS, Ruby on Rails, Swift
+            </p>
+
+            <p>
+            Education: Australian National University, Bachelor of Science, major in Mathematics and Computer Science, second year
+            </p>
+
+            <p>
+            Currently: Coder Academy web dev boot camp 6 months, March 2018
+            </p>
+
+            <p></p><p></p><p></p>
+
+            <div class="social-icons">
+              <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+              <a class="btn btn-default" href="https://github.com/crunchysoul">
+                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn-default" href="https://codepen.io/funkycrunchy/">
+                <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+              </a>
+              <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            </div><!-- social-icons -->
+            <p></p>
+            <p></p>
+          </div><!-- main&#45;container -->
+        </article>
+      </div><!-- d2 -->
 
       <input type="checkbox" class="box-button" id="button-d3" />
       <div class="desktop-box d3">
-        <label for="button-d3" onclick class="box-label" id="label-b-d3">
-          <article>
-            <header class="d-title-bar">
-              <h2>- HOW { CONTACT } -</h2>
-            </header>
-
-            <div class="main-container m-c-d3">
-              <p>Have you checked my previous works and projects already? Want to discover more?<br><br>I'd love to share, expore and collaborate new ideas with other passionate fellow human beings. Why not send me a message below, coffee on me, and let's create something together.
-              </p>
-              <form name="contact" action="thank-you" netlify>
-                <input type="text" name="name" placeholder="Your Name" />
-                <input type="email" name="email" placeholder="Your Email" />
-                <textarea name="message" placeholder="Your Message" /></textarea>
-                <input type="submit" value="SEND" />
-              </form><!-- form -->
-            </div>
-
-            <footer class="d-footer-bar">
-              <h2 id="close-d3">- BACK -</h2>
-            </footer>
-          </article>
+        <label for="button-d3" onclick>
           <div id="d3-nav-title">
             <h2>- HOW { CONTACT } -</h2>
           </div>
+
+          <footer>
+            <h2>- BACK -</h2>
+          </footer>
         </label>
-      </div>
+
+        <article>
+          <header>
+            <h2>- HOW { CONTACT } -</h2>
+          </header>
+
+          <div class="main-container">
+            <p>
+            Have you checked my previous works and projects already? Want to discover more?<br><br>I'd love to share, expore and collaborate new ideas with other passionate fellow human beings. Why not send me a message below, coffee on me, and let's create something together.
+            </p>
+
+            <form name="contact" action="thank-you" netlify>
+              <input type="text" name="name" placeholder="Your Name" />
+              <input type="email" name="email" placeholder="Your Email" />
+              <textarea name="message" placeholder="Your Message" ></textarea>
+              <input type="submit" value="SEND" />
+            </form><!-- form -->
+          </div><!-- main&#45;container -->
+        </article> 
+      </div><!-- d3 -->
 
       <input type="checkbox" class="box-button" id="button-d4" />
       <div class="desktop-box d4">
-        <label for="button-d4" onclick class="box-label" id="label-b-d4">
-          <article>
-            <header class="d-title-bar">
-              <h2>- WHO { ABOUT } -</h2>
-            </header>
-
-            <div class="main-container m-c-d4">
-              <p id="testing">Hi, I'm Chen Zhao</p>
-              <p>
-              A programmer/web developer and free lancer from Melbourne, Australia. I am interested in innovation, creation, mathematics, science and technology.<br><br>Currently embracing myself in a six months journey of fulltime web dev bootcamp at Coder Academy.<br><br>Besides my joyful exploration of technologies everyday, I appericaiate the wonder of music, literature, nature and life.
-              </p>
-            </div>
-            <footer class="d-footer-bar">
-              <h2 id="close-d4">- BACK -</h2>
-            </footer>
-          </article>
+        <label for="button-d4" onclick>
           <div id="d4-nav-title">
             <h2>- WHO { ABOUT } -</h2>
             <h2 id="intro">Welcome, click to find more about me.</h2>
           </div>
+
+          <footer>
+            <h2>- BACK -</h2>
+          </footer>
         </label>
-      </div>
+
+        <article>
+          <header>
+            <h2>- WHO { ABOUT } -</h2>
+          </header>
+
+          <div class="main-container">
+            <p>Hi, I'm Chen Zhao</p>
+            <p>
+            A programmer/web developer and free lancer from Melbourne, Australia. I am interested in innovation, creation, mathematics, science and technology.<br><br>Currently embracing myself in a six months journey of fulltime web dev bootcamp at Coder Academy.<br><br>Besides my joyful exploration of technologies everyday, I appericaiate the wonder of music, literature, nature and life.
+            </p>
+          </div><!-- main&#45;container -->
+        </article>
+      </div><!-- d4 -->
     </div><!-- desktop-only -->
 
 
@@ -163,99 +188,105 @@
     <div class="mobile-only">
       <div class="mobile-box m-background ">
         <h1>CHEN ZHAO</h1>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <h2 id="solver">
-          Solver
-        </h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+
+        <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+
+        <h2 id="solver">Solver</h2>
+
+        <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
 
         <div class="mobile-box m1">
           <h2>- WHO { ABOUT } -</h2>
           <p></p>
-          <p>Hi, I'm Chen Zhao, a programmer/web developer from Melbourne, Australia. I am interested in innovation, creation, mathematics, science and technology.<br><br>Currently embracing myself in a six months journey of fulltime web dev bootcamp at Coder Academy.<br><br>Besides my joyful exploration of technologies everyday, I appericaiate the wonder of music, literature, nature and life.
+          <p>
+          Hi, I'm Chen Zhao, a programmer/web developer from Melbourne, Australia. I am interested in innovation, creation, mathematics, science and technology.<br><br>Currently embracing myself in a six months journey of fulltime web dev bootcamp at Coder Academy.<br><br>Besides my joyful exploration of technologies everyday, I appericaiate the wonder of music, literature, nature and life.
           </p>
-          <p></p>
-          <p></p>
+
+          <p></p><p></p>
 
           <div class="mobile-box m2">
             <h2>- WHY { SKILLS } -</h2>
+            
             <p></p>
+
             <p>
             Languages: English, Chinese
             </p>
+
             <p>
             Programming: Assembly language(ARM), CSS, Git, HTML, Haskell, Java, JavaScript, LaTex, Python, R, Ruby
             </p>
+
             <p>
             Learning: ARKit, Elixir, ReactJS, Ruby on Rails, Swift
             </p>
+
             <p>
             Education: Australian National University, Bachelor of Science, major in Mathematics and Computer Science, second year
             </p>
+
             <p>
             Currently: Coder Academy web dev boot camp 6 months, March 2018
             </p>
-            <p></p>
-            <p></p>
+            
+            <p></p><p></p>
 
             <div class="mobile-box m3">
               <h2>- WHAT { WORKS } -</h2>
               <p>mobile-box-2</p>
               <p style="text-align:center;"><img src="assets/img/design.jpeg" style="width:100%;height:auto;"></p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
-              <p style="text-align:center;"><img src="assets/img/google.jpeg" style="width:100%;height:auto;"></p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
-              <p style="text-align:center;"><img src="assets/img/embbed.jpeg" style="width:100%;height:auto;"></p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
+              <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
               </p>
-              <p></p>
-              <p></p>
+              <p style="text-align:center;"><img src="assets/img/google.jpeg" style="width:100%;height:auto;"></p>
+              <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
+              </p>
+              <p style="text-align:center;"><img src="assets/img/embbed.jpeg" style="width:100%;height:auto;"></p>
+              <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, porro nesciunt inventore maxime magnam officiis, in vero, obcaecati minus labore facilis debitis commodi est numquam voluptate? Ducimus praesentium accusantium assumenda?
+              </p>
+
+              <p></p><p></p>
 
               <div class="mobile-box m4">
                 <h2>- HOW { CONTACT } -</h2>
+
                 <p></p>
-                <p>Have you checked my previous works and projects already? Want to discover more?<br><br>
-                I'd love to share, expore and collaborate new ideas with other passionate fellow human beings.<br><br>
+
+                <p>
+                Have you checked my previous works and projects already? Want to discover more?
+                <br><br>
+                I'd love to share, expore and collaborate new ideas with other passionate fellow human beings.
+                <br><br>
                 Why not send me a message below, coffee on me, and let's create something together.
                 </p>
-                <p></p>
-                <p></p>
+
+                <p></p><p></p>
 
                 <form name="contact" action="thank-you" netlify>
                   <input type="text" name="name" placeholder="Your Name" />
                   <input type="email" name="email" placeholder="Your Email" />
-                  <textarea name="message" placeholder="Your Message" /></textarea>
+                  <textarea name="message" placeholder="Your Message" ></textarea>
                   <input type="submit" value="SEND" />
                 </form><!-- form -->
+
                 <p></p>
+
               </div><!-- mobile-box m4 -->
             </div><!-- mobile-box m3 -->
           </div><!-- mobile-box m2 -->
         </div><!-- mobile-box m1 -->
+
         <p></p>
         <p></p>
 
-        <div class="mobile-socials">
+        <div class="social-icons">
           <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
           <a class="btn btn-default" href="https://github.com/crunchysoul"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
           <a class="btn btn-default" href="https://codepen.io/funkycrunchy/"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
           <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
-        </div><!-- mobile-socials -->
+        </div><!-- social-icons -->
         <!--     <div class="foot">
           <p>Chen Zhao @ 2017</p>
           </div> -->
