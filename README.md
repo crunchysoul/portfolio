@@ -1,6 +1,12 @@
 # Chen's Portfolio Website
 self-explanatory
 
+# TODO
+- [ ] update content
+- [ ] replace whole project with react
+- [ ] improve seo
+- [ ] hosted in own domain n server
+
 # Aim
 Simple. Simple. Simple
 - Too many websites homogeneous, espcially portfolio websites
